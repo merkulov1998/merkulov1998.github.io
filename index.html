@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+</head>
+<body>
+    <section class="header"> 
+        <div class="container">
+            <div class="offer">
+                <img src="img/cake1.png" alt="cake1" class="big_circle_cake1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#"><img src="icons/logo.png" alt="logo" class="offer_logo"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="menu">
+                            <li class="menu_item"><a href="#link1" class="menu_link">Каталог</a></li>
+                            <li class="menu_item"><a href="#link2" class="menu_link">Отзывы</a></li>
+                            <li class="menu_item"><a href="#link3" class="menu_link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="title">Торты на заказ любой сложности</div>
+                <div class="descr">Пеку сладости для весёлых праздников<br> и уютных вечеров!</div>
+                <button id="link1" class="header_button"><a href="#link1" class="header_button_link">Смотреть каталог!</a></button>
+            </div>
+        </div>
+        <div class="small_circle">
+            <img src="img/cake2.png" alt="cake2" class="small_circle_cake2">
+        </div>
+    </section>
+    <img src="img/cherry.png" alt="cherry" class="cherry">
+    <h2 class="title">Каталог</h2>
+    <section id="link1" class="catalog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card1.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Меренговый рулет с вишневой начинкой</div>
+                            <div class="catalog_text">Вишня, малина,<br> клубника на выбор</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card2.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Торт с карамелью<br> и арахисом</div>
+                            <div class="catalog_text">Карамель, арахис,<br> клубника на выбор</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card3.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Торт “Красный бархат”</div>
+                            <div class="catalog_text">Вишневая начинка и<br> творожно-сливочный<br> крем</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card4.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Шоколадный трайфл</div>
+                            <div class="catalog_text">Клубника, банан</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card5.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Ванильные капкейки</div>
+                            <div class="catalog_text">Нежнейшие ванильные малыши станут отличным дополнением к празднику</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catalog_block">
+                        <div class="catalog_rectangle">
+                            <img src="img/cards/card6.jpg" alt="img" class="img">
+                        </div>
+                        <div class="catalog_descr">
+                            <div class="catalog_subtitle">Торт “Лесная сказка”</div>
+                            <div class="catalog_text">Голубика, малина</div>
+                        </div>
+                        <button data-modal="order" class="catalog_button">Сделать заказ!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reasons">
+        <div class="container">
+            <h2 class="reasons_title">Почему ко мне обращаются?</h2>
+            <img src="img/mint.png" alt="mint" class="mint">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <img src="icons/mixer.png" alt="img" class="img">
+                        <div class="reasons_descr">Все торты пекутся<br> только из самых лучших,<br> качественных и свежих<br> ингредиентов</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <img src="icons/piece.png" alt="img" class="img">
+                        <div class="reasons_descr">Нежнейшие коржи и<br> крем подарят Вам<br> невероятный вкус</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <img src="icons/birthday_cake.png" alt="img" class="img">
+                        <div class="reasons_descr">Делаю уникальный дизайн<br> для Вашего торта на любую<br> тематику</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons_block">
+                        <img src="icons/time.png" alt="img" class="img">
+                        <div class="reasons_descr">Пеку сладости с душой<br> и выполняю заказы<br> в срок</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="img/raspberry.png" alt="raspberry" class="raspberry">
+    <section id="link2" class="reviews">
+        <div class="container">
+            <h2 class="reviews_title">Отзывы</h2>
+            <div class="reviews_item">
+                <div class="reviews_block">
+                    <div class="reviews_rectangle">
+                        <img src="img/reviews/review1.png" alt="img" class="img">
+                    </div>
+                    <div class="reviews_subtitle">Алёна</div>
+                    <div class="reviews_descr">Лучшая кондитерская! Говорю без
+                        преувеличения. Вкуснее и<br> 
+                        разнообразнее в начинках нет ни у<br>
+                        кого. Цена очень привлекательная и<br>
+                        можно выбрать всё на Ваш вкус.<br>
+                        Эллина создает произведения<br>
+                        искусства. Спасибо Вам большое!!!</div>
+                    <div class="reviews_stars">
+                        <img src="icons/stars.png" alt="star" class="star">
+                    </div>
+                    </div>
+                <div class="reviews_block">
+                    <div class="reviews_rectangle">
+                        <img src="img/reviews/review2.png" alt="img" class="img">
+                    </div>
+                    <div class="reviews_subtitle">Полина</div>
+                    <div class="reviews_descr">Спасибо огромное  кондитеру Эллине!!! 
+                        Первый раз решила заказать торт себе<br> 
+                        на День рождения и  выбрала кондитерскую<br>
+                        “Коржик BAKERY”. Не прогадала) 
+                        Торт получился безумно вкусный и красивый!<br>
+                        Все были в восторге!!!</div>
+                    <div class="reviews_stars">
+                        <img src="icons/stars.png" alt="star" class="star">
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_rectangle">
+                        <img src="img/reviews/review3.png" alt="img" class="img">
+                    </div>
+                    <div class="reviews_subtitle">Екатерина</div>
+                    <div class="reviews_descr">За 3-4 часа приготовила тортик, прям<br>
+                        спасла нас! Очень вкусный получился,<br>
+                        даже не ожидали, так как времени было<br>
+                        мало. Отправила фотографию, какой<br>
+                        хотели, сделала точь в точь,<br> 
+                        очень красивый.<br> 
+                        Все как хотели. Спасибо!</div>
+                    <div class="reviews_stars">
+                        <img src="icons/stars.png" alt="star" class="star">
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_rectangle">
+                        <img src="img/reviews/review4.png" alt="img" class="img">
+                    </div>
+                    <div class="reviews_subtitle">Кристина</div>
+                    <div class="reviews_descr">Спасибо большое за торт! Он очень нежный!<br>
+                        Именно то, чего и хотелось!<br>
+                        Просто бомба, а не торт!<br>
+                        Ещё раз спасибо!</div>
+                    <div class="reviews_stars">
+                        <img src="icons/stars.png" alt="star" class="star">
+                    </div>
+                </div>
+                <div class="reviews_block">
+                    <div class="reviews_rectangle">
+                        <img src="img/reviews/review5.png" alt="img" class="img">
+                    </div>
+                    <div class="reviews_subtitle">Алексей</div>
+                    <div class="reviews_descr">Заказываю здесь капкейки уже 4 раз,<br>
+                        цена и качество всегда на высоте.<br>
+                        Эти капкейки очень приятные на вкус,<br>
+                        свежие, нежные, воздушные!<br>
+                        Рекомендую попробовать!</div>
+                    <div class="reviews_stars">
+                        <img src="icons/stars.png" alt="star" class="star">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="link3" class="contacts">
+        <div class="container">
+            <div class="contacts_rectangle"></div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contacts_subtitle">Мои контакты</div>
+                    <div class="contacts_phone">Тел: +7(927)654-32-10</div>
+                    <div class="contacts_email">Эл. адрес: el_alexandrova@mail.ru </div>
+                    <div class="contacts_descr">Я в соцсетях:</div>
+                    <div class="contacts_icons">
+                        <img src="icons/instagram.svg" alt="instagram" class="img">
+                        <img src="icons/vk.svg" alt="vk" class="img">
+                        <img src="icons/whatsapp.svg" alt="whatsapp" class="img">
+                        <img src="icons/telegram.svg" alt="telegram" class="img">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img src="img/trifle.jpg" alt="trifle" class="trifle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="consultation_title">Остались вопросы? Задайте их здесь!</h2>
+            <div class="consultation_circle">
+                <img src="img/mint_question.png" alt="mint_question" class="mint_question">
+            </div>
+            <form class="consultation_form" action="#">
+                <input name="name" required placeholder="Ф.И.О." type="text"> 
+                <input name="phone" required placeholder="Телефон" type="phone"> 
+                <input name="question" required placeholder="Вопрос" type="text"> 
+                <button class="button button_submit">Отправить!</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer_phone">Тел: +7(927)654-32-10</div>
+                    <div class="footer_email">Эл. адрес: el_alexandrova@mail.ru </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img src="icons/logo.png" alt="logo" class="footer_logo"></a>
+                </div>
+                <div class="col-md-5">
+                    <div class="footer_descr">Присоединяйтесь ко мне в соцсетях:</div>
+                    <div class="footer_icons">
+                        <img src="icons/instagram.svg" alt="instagram" class="img">
+                        <img src="icons/vk.svg" alt="vk" class="img">
+                        <img src="icons/whatsapp.svg" alt="whatsapp" class="img">
+                        <img src="icons/telegram.svg" alt="telegram" class="img">
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <div class="overlay">
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr">Шоколадный трайфл</div>
+            <div class="modal__circle"></div>
+            <form class="modal__form" action="#">
+                <input name="name" required placeholder="Ф.И.О." type="text"> 
+                <input name="phone" required placeholder="Телефон" type="phone"> 
+                <button class="button button_submit">Заказать!</button>
+            </form>
+        </div>
+        <div class="mini" id="thanks">
+            <div class="mini__close">&times;</div>
+            <div class="mini__subtitle">Спасибо за Вашу заявку!</div>
+            <div class="mini__descr">Наш менеджер свяжется с вами 
+                в ближайшее время!</div>
+            <div class="mini__circle"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
