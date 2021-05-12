@@ -1,0 +1,95 @@
+.big_circle_cake1{
+    position: absolute;
+    left: 450px;
+    top: 240px;
+    z-index: 0;
+}
+.offer{
+    position: relative;
+    width: 1170px;
+    height: 842px;
+    border: 5px solid $second-color;
+    box-sizing: border-box;
+    //z-index: 1;
+    &_logo{
+        margin-top: 42px;
+        margin-left: 45px;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 42px;
+    margin-left: -120px;
+    &_link{
+        font-family: 'Amatic SC';
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+        padding-left: 28px;
+        &:hover{
+            text-decoration:underline;
+            color:#000000;
+        }
+    }
+    
+}
+.title{
+    font-family: 'Amatic SC';
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    margin-top: 131px;
+    margin-left: 45px;
+}
+.descr{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 17px;
+    margin-left: 45px;
+}
+.header_button{
+    width: 240px;
+    height: 60px;
+    background: linear-gradient(180deg, #FFBFCA 0%, rgba(255, 225, 230, 0.5) 100%);
+    border-radius: 7px;
+    margin-top: 71px;
+    margin-left: 45px;
+    border:none;
+    &:hover{
+        background: $main-color;
+    }
+    &_link{
+        font-family: 'Amatic SC';
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        &:hover{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+}
+.small_circle{
+    position: absolute;
+    width: 451px;
+    height: 451px;
+    left: -53px;
+    top: 600px;
+    background: $main-color;
+    border-radius:100%;
+    &_cake2{
+        position: absolute;
+        left: 70px;
+        top: 0;
+        z-index: 0;
+    }
+}

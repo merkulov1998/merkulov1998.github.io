@@ -1,0 +1,72 @@
+.contacts{
+    min-height: 842px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4337px;
+    &_rectangle{
+        width: 1170px;
+        height: 847px;
+        left: 215px;
+        top: 4337px;
+        border: 5px solid $second-color;
+    }
+    &_subtitle{
+        font-family: 'Amatic SC';
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+        margin-left: 177px;
+        position: absolute;
+        top: -725px;
+    }
+    &_phone{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        position: absolute;
+        top: -626px;
+        margin-left: 70px;
+    }
+    &_email{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        position: absolute;
+        top: -559px;
+        margin-left: 70px;
+    }
+    &_descr{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        position: absolute;
+        top: -492px;
+        margin-left: 70px;  
+    }
+    &_icons{
+        position: absolute;
+        top: -425px;
+        margin-left: 70px;
+        .img{
+            margin-left: 24px;
+            &:nth-child(1){
+                margin-left: 0;
+            }
+        }
+    }
+}
+.trifle{
+    width: 677px;
+    height: 847px;
+    position: absolute;
+    top: -847px;
+    left: 8px;
+}

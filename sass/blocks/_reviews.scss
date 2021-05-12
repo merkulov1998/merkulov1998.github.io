@@ -1,0 +1,99 @@
+.raspberry{
+    position: absolute;
+    left: 36px;
+    top: 3255px;
+}
+.reviews{
+    min-height: 831px;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    &_title{
+        position: relative;
+        width: 72px;
+        height: 45px;
+        left: 50%;
+        top: 540px;
+        font-family: 'Amatic SC';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+        text-align: center;
+    }
+    &_item{
+        min-height: 602px;
+        position: relative;
+        top: 800px;
+        left: 7px;
+    }
+    &_block{
+        width: 370px;
+        min-height: 512px;
+        margin-top: 30px;
+        margin-left: 30px;
+        position: relative;
+        left: -11px;
+        top: 60px;
+        }
+    &_rectangle{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-width: 370px;
+        min-height: 426px;
+        border: 3px solid #8BF4B5;
+        box-sizing: border-box;
+        position: absolute;
+        .img{
+            position: absolute;
+            top: -90px;
+            }
+        }
+    &_subtitle{
+        position: absolute;
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin-top: 113px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+    &_descr{
+        width: 350px;
+        position:absolute;
+        text-align: center;
+        margin-top: 173px;
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+    &_stars{
+        margin-top: 354px;
+        margin-left: 23px;
+        }  
+}
+.slick-prev, .slick-next{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-55%);
+    left: -42px;
+    border: none;
+    background-color: #fff;
+    img{
+        width: 24px;
+        height: 61px;
+    }
+}
+.slick-next{
+    right: -63px;
+    left: auto;
+}

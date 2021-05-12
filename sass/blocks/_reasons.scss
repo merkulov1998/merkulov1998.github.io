@@ -1,0 +1,41 @@
+.mint{
+    position: absolute;
+    left: 1184px;
+    top: -130px;
+}
+.reasons{
+    min-height: 419px;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -750px;
+    top: 2628px;
+    &_title{
+        position: absolute;
+        left: 596px;
+        top: 20px;
+        font-family: 'Amatic SC';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+        margin-top: 43px;
+    }
+    &_block{
+        display: flex;
+		justify-content: center;
+		align-items: center;
+        margin-top: 106px;
+        margin-left: 231px;
+        width: 450px;
+    }
+    &_descr{
+        font-family: 'Roboto';
+        font-weight: normal;
+        //font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 28px;
+    }
+}

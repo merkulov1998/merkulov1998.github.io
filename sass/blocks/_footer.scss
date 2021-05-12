@@ -1,0 +1,50 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 226px;
+    top: 6585px;
+    background: #FFD6DD;
+    margin-bottom: 50px;
+    &_phone{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 170px;
+        margin-top: 65px;
+    }
+    &_email{
+        width: 380px;
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 170px;
+        margin-top: 39px;
+    }
+    &_logo{
+        position: absolute;
+        left: 145px;
+        margin-top: 70px;
+    }
+    &_descr{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 51px;
+        padding-right: 100px;
+    }
+    &_icons{
+        margin-top: 31px;
+        img{
+            padding-left: 44px;
+            &:nth-child(1){
+            padding-left: 0;
+        }
+        }
+    } 
+}

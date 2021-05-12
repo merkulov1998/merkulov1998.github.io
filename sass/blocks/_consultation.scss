@@ -1,0 +1,71 @@
+.consultation{
+    min-height: 1148px;
+    position: absolute;
+    width: 990px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5291px;
+    .mint_question{
+        position: absolute;
+        top:-50px;
+        left: 50px;
+    }
+    &_title{
+        font-family: 'Amatic SC';
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+        position: absolute;
+        left: 300px;
+    }
+    &_circle{
+        position: absolute;
+        width: 990px;
+        height: 990px;
+        margin-top: 113px;
+        border-radius: 100%;
+        background: #FFD6DD;
+    }
+    &_form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 357px;
+        input[placeholder]{
+            position: relative;
+            width: 650px;
+            height: 99px;
+            top: -50px;
+            left: 165px;
+            background: #FFFFFF;
+            border-radius: 7px;
+            z-index: 1;
+            border:none;
+            margin-top: 81px;
+            font-family: 'Amatic SC';
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 45px;
+            color: #000000;
+            padding-left: 30px;
+        }
+        .button_submit{
+            position: absolute;
+            width: 240px;
+            height: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 86%;
+            background: #9AF48B;
+            border-radius: 7px;
+            font-family: 'Amatic SC';
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #000000;
+            border: none;
+            z-index: 1;
+        }
+        }
+    }

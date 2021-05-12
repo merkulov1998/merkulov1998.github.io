@@ -1,0 +1,82 @@
+h2.title{
+    position: relative;
+    font-family: 'Amatic SC';
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    text-align: center;
+    right: 25px;
+    top: -200px;
+}
+.cherry{
+    position: absolute;
+    left: 0px;
+    top: 1139px;
+}
+.catalog{
+    min-height: 1426px;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    &_block{
+        display: flex;
+		justify-content: center;
+		align-items: flex-start;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    &_rectangle{
+        display: flex;
+		justify-content: flex-start;
+		//align-items: center;
+        min-width: 570px;
+        min-height: 370px;
+        border: 2px solid $main-color;
+        box-sizing: border-box;
+    }
+    &_descr{
+      width: 250px;
+      position: absolute;
+      left: 57.5%;
+    }
+    &_subtitle{
+        font-family: 'Amatic SC';
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 62px;
+    }
+    &_text{
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+        margin-top: 17px;
+    }
+    &_button{
+        position: absolute;
+        bottom: 50px;
+        left: 345px;
+        width: 240px;
+        height: 60px;
+        background: linear-gradient(180deg, #FFBFCA 0%, rgba(255, 225, 230, 0.5) 100%);
+        border-radius: 7px;
+        font-family: 'Amatic SC';
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        border: none;
+        &:hover{
+            background: $main-color;
+        }
+    }
+    
+}
