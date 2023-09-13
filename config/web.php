@@ -10,6 +10,7 @@ $config = [
     'layout' => 'cafe',
     'name' => 'Cafe',
     'language' => 'ru',
+    'defaultRoute' => 'message/index',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
