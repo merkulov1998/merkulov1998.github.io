@@ -10,7 +10,7 @@ $config = [
     'layout' => 'cafe',
     'name' => 'Cafe',
     'language' => 'ru',
-    'defaultRoute' => 'message/create',
+    'defaultRoute' => 'message/index',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -46,15 +46,17 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
-            ],
         ],
-        */
+        
     ],
+    'controllerMap' => [
+        'message' => 'app\controllers\MessageController',
+    ],
+    'defaultRoute' => 'message/index', 
     'params' => $params,
 ];
 

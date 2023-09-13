@@ -3,7 +3,7 @@
 use yii\db\Migration;
 
 /**
- * Class m230909_201753_messages
+ * Class m230909_201753_message
  */
 class m230909_201753_message extends Migration
 {
@@ -19,10 +19,10 @@ class m230909_201753_message extends Migration
         ]);
     
         $this->addForeignKey(
-            'fk-messages-id_cafe',
-            'messages',
+            'fk-message-id_cafe',
+            'message',
             'id_cafe',
-            'cafes',
+            'cafe',
             'id',
             'CASCADE'
         );
@@ -33,7 +33,7 @@ class m230909_201753_message extends Migration
      */
     public function safeDown()
     {
-        echo "m230913_213153_messages cannot be reverted.\n";
+        echo "m230913_213153_message cannot be reverted.\n";
 
         return false;
     }
@@ -45,11 +45,5 @@ class m230909_201753_message extends Migration
 
     }
 
-    public function down()
-    {
-        echo "m230909_201753_messages cannot be reverted.\n";
-
-        return false;
-    }
     */
 }

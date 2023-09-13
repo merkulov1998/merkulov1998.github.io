@@ -35,6 +35,6 @@ class Message extends ActiveRecord
     */
     public function getCafe()
     {
-        return $this->hasOne(Cafe::class, ['id_cafe' => 'id']);
+        return $this->hasOne(Cafe::class, ['id' => 'id_cafe']);
     }
 }

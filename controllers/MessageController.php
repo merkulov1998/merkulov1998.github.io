@@ -4,7 +4,7 @@ namespace app\controllers;
 use Yii;
 //use Longman\TelegramBot\Telegram;
 use yii\web\Controller;
-use app\models\Messages;
+use app\models\Message;
 use app\models\MessageForm;
 use yii\web\NotFoundHttpException;
 use app\models\Cafe;
@@ -38,7 +38,7 @@ class MessageController extends Controller{
     return $this->render('create', ['model' => $model]);
 
 }
-public function actionView($id=1, $version=null)
+public function actionView($id, $version=null)
     {
         //$model = Message::find()->all();
         $model = Cafe::findOne($id);
