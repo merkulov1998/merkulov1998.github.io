@@ -2,18 +2,13 @@
 
 namespace app\models;
 
-use yii\db\ActiveRecord;
+use yii\base\Model;
 
-class Message extends ActiveRecord
+class MessageForm extends Model
 {
     public $id;
     public $text;
     public $id_cafe;
-    
-    public static function tableName()
-    {
-        return 'message';
-    }
 
     public function rules()
     {
@@ -23,18 +18,13 @@ class Message extends ActiveRecord
             [['text'], 'string', 'max' => 255],
         ];
     }
-/*
+
     public function attributeLabels()
     {
         return [
             'id' => 'ID',
-            'text' => 'Текст сообщения',
-            'id_cafe' => 'ID кафе',
+            'text' => 'Text',
+            'id_cafe' => 'Cafe ID',
         ];
-    }
-    */
-    public function getCafe()
-    {
-        return $this->hasOne(Cafe::class, ['id_cafe' => 'id']);
     }
 }

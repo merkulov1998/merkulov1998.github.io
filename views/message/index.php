@@ -8,7 +8,7 @@ $this->title = Yii::$app->name;
 <div id="app">
     <div class="container">
             <div v-for="cafe in cafes" :key="cafe.id" class="card">
-      <img :src="cafe.imageUrl" alt="Card Image" class="card-img">
+      <img :src="cafe.imageUrl" alt="" class="card-img">
            <div class="rectangle"></div>
            <h5 class="card-title">{{ cafe.name }}</h5>
           <p class="card-address">Адрес: {{ getAddress(cafe.address) }}</p>
