@@ -28,7 +28,7 @@ class AppAsset extends AssetBundle
         'random.js',
     ];
     public $depends = [
-        'yii\web\YiiAsset',
+       // 'yii\web\YiiAsset',
         'yii\bootstrap5\BootstrapAsset'
     ];
 }

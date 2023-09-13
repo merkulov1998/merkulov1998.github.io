@@ -200,7 +200,7 @@ const app = Vue.createApp({
       this.comments.push(comment);
 
       localStorage.setItem("comments", JSON.stringify(this.comments));
-      //localStorage.removeItem("comments");
+      localStorage.removeItem("comments");
 
       this.newComment.text = "";
     },
